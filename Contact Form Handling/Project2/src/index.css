@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+input:focus,
+textarea:focus,
+button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: inherit;
+}
+@keyframes slide {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
